@@ -23,7 +23,7 @@ jobs:
 
       - name: Build app
         run: |
-          pyinstaller --noconfirm --windowed --name TradingJournal run.py
+          pyinstaller --noconfirm --windowed --name TradingJournal TradingPAT8_2.0.py
 
       - name: Zip .app
         run: |
